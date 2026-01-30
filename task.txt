@@ -1,0 +1,84 @@
+Data Scientist Machine Test Task:
+
+Task Overview:
+Problem Statement:
+Predict customer churn for a telecom company using the provided dataset.
+
+Dataset Provided:
+File Name: customer_churn.csv
+
+Columns include: CustomerID, Gender, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary, Exited
+
+Task Requirements:
+Data Preprocessing:
+
+Handle missing values
+
+Encode categorical features
+
+Scale numerical variables
+
+Exploratory Data Analysis (EDA):
+
+Visualize distributions
+
+Correlation heatmap
+
+Detect outliers
+
+Model Development:
+
+Use Logistic Regression, Random Forest, or XGBoost
+
+Perform train-test split
+
+Evaluate using Accuracy, Precision, Recall, F1 Score
+
+Hyperparameter Tuning:
+
+Apply GridSearchCV or RandomSearch
+
+Model Interpretation:
+
+Feature importance plot
+
+SHAP/LIME explanation (if required)
+
+Final Prediction:
+
+Generate a prediction CSV (submission.csv) containing CustomerID and Churn_Prediction
+
+ Submission Checklist:
+Jupyter Notebook (Churn_Prediction_Model.ipynb)
+All code with markdown explanations
+ EDA + preprocessing + modeling steps clearly mentioned
+
+Requirements.txt
+ List of Python packages used (pandas, scikit-learn, matplotlib, etc.)
+
+submission.csv
+ Format:
+
+CustomerID	Churn_Prediction
+15634602	0
+15647311	1
+
+ReadMe.md
+Brief description of the approach
+ Instructions to run the notebook
+Observations and limitations
+
+Add on
+ SHAP/LIME explanations
+Cross-validation scores
+
+ Evaluation Criteria:
+Criteria	Weightage
+Problem Understanding	10%
+Data Cleaning & EDA	20%
+Modeling Approach	30%
+Model Evaluation	15%
+Interpretability & Insights	15%
+Submission Quality	10%
+
+Submission deadline 4-5 days
